@@ -15,7 +15,7 @@ function nowServing(line) {
 function currentLine(line) {
   var current = [];
   for (var i = 0; i < line.length; i++) {
-    current.push(`[i]. ${line[i]}`);
+    current.push(`${i}. ${line[i]}`);
   }
     
   if (current.length === 0) {
